@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("https://st2.depositphotos.com/3927429/8215/i/600/depositphotos_82158134-stock-photo-athletic-man-and-woman-with.jpg");
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.left img {
+    width: 140px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.mid {
+    /* border: 2px solid gainsboro; */
+    display: block;
+    width: 55%;
+    margin: 20px 273px;
+    font-weight: bold;
+    font-size: 3px;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: gray;
+
+
+}
+
+.btn {
+    margin: 9px 11px;
+    color: white;
+    background-color: black;
+    padding: 6px 12px;
+    border: 2px solid whitesmoke;
+    border-radius: 11px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(168, 160, 160);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 147px 57px;
+    padding: 55px;
+    width: 32%;
+    border-radius: 11px;
+}
+
+.form-group input {
+    text-align: center;
+    width: 344px;
+    display: block;
+    border: 2px solid black;
+    margin: 3px auto;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container .btn{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
